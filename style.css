@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  max-width: 1140px;
+  display: flex;
+  gap: 215px;
+  height: 30vh;
+  padding-top: 5rem;
+  margin: auto;
+}
+.h-left-text {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+}
+.h-right-caption {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.h-right-text {
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 75%;
+}
+.h-right {
+  width: 50%;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+#box-2,
+#box-5 {
+  margin-top: 5rem;
+}
+.role {
+  color: #000;
+  font-size: 12px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: -8%;
+  top: 0;
+}
+.box {
+  max-width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.container img {
+  max-width: 100%;
+}
+.name {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    padding-top:0px;
+    gap:20px;
+    height: auto;
+    margin-left:20px;
+    margin-bottom:50px;
+
+  }
+  .h-left-text {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .h-right {
+  width:auto;
+}
+.container{
+    margin-left:20px;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+#box-5{
+    margin-top:0;
+}
+.box {
+  max-width: 200px;
+  height: 400px;
+  position: relative;
+}
+#box-2,#box-4,#box-6 {
+    margin-top:5rem;
+}
+#box-6{
+     margin-top:5rem;
+}
+
+
+.role {
+  color: #000;
+  font-size: 8px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: -8%;
+  top: 0;
+}
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    
+      header {
+    flex-direction: column;
+    padding-top:0px;
+    gap:20px;
+    height: auto;
+    margin-left:20px;
+    margin-bottom:20px;
+
+  }
+  .container{
+    margin-right:20px;
+    margin-left:20px;
+  }
+  .h-left-text {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .h-right {
+  width:auto;
+}
+.role {
+
+   font-size: 9px;
+  right: -10%;
+
+}
+}
